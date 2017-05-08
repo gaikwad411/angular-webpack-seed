@@ -1,0 +1,23 @@
+application: your-google-project
+version: app-version-id
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+# Favicon
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+  login: required
+
+
+# App
+- url: /(.*)
+  static_files: /\1
+  upload: /(.*)
+  login: required
+  
+libraries:
+- name: webapp2
+  version: "2.5.2"

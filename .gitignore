@@ -1,0 +1,3 @@
+node_modules/
+src/app/vendors/bower_components/
+dist/
