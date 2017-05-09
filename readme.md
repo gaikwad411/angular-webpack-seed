@@ -8,14 +8,14 @@ Following libs are already added to the project
 5. Developement Server
 
 ## Directory structure
-src/ ==> contains all the sources
-	app/ ==> contains application main module's js, css 
-	config/ ==> configuration files
-	modules/ ==> other modules developed 
-	app.yaml ==> For google app engine, you can directly upload the /dist folder on google app engine.
-	app_init.js ==> trigger file for webpack
-	index.html ==> App index html file
-dist/ ==> build copy of src directory, this should be served by web server.
+src/ ==> contains all the sources<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;app/ ==> contains application main module's js, css<br /> 
+	&nbsp;&nbsp;&nbsp;&nbsp;config/ ==> configuration files<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;modules/ ==> other modules developed<br /> 
+	&nbsp;&nbsp;&nbsp;&nbsp;app.yaml ==> For google app engine, you can directly upload the /dist folder on google app engine.<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;app_init.js ==> trigger file for webpack<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;index.html ==> App index html file<br />
+dist/ ==> build copy of src directory, this should be served by web server.<br />
 
 
 ## Gettings Started ##
